@@ -38,8 +38,8 @@
       <!-- /////////////////////////////////////// -->
       <!-- ISSUE LIST -->
       <!-- /////////////////////////////////////// -->
-      <div class="bg-yellow-100 w-1/2 text-center">
-        <div class="bg-red-100 flex space-x-3 pb-4">
+      <div class="w-1/2 text-center">
+        <div class="flex space-x-3 pb-4">
           <!-- OPEN -->
           <div class="rounded-md shadow px-5 py-3 bg-white flex-1 text-base font-medium">
             Open 5
@@ -53,8 +53,27 @@
             Closed 10
           </div>
         </div>
-        <div class="bg-green-100">
-          All Project / Open
+        <div class="flex space-x-3">
+          <!-- PROJECT NAME -->
+          <div class="w-1/2">
+            <label for="country" class="block text-sm font-medium text-gray-700 text-left">Project Name</label>
+            <select
+              class="mt-1 block w-full py-3 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+              <option>Kernel 9</option>
+              <option>MKOS</option>
+              <option>Tracker</option>
+            </select>
+          </div>
+          <!-- ISSUE STATUS -->
+          <div class="w-1/2">
+            <label for="country" class="block text-sm font-medium text-gray-700 text-left">Issue Status</label>
+            <select
+              class="mt-1 block w-full py-3 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+              <option>Open</option>
+              <option>In Progress</option>
+              <option>Closed</option>
+            </select>
+          </div>
         </div>
         <div class="bg-orange-100">
           <ul>
