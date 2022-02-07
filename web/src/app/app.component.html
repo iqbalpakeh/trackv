@@ -2,40 +2,36 @@
   <!-- /////////////////////////////////////// -->
   <!-- HEADER -->
   <!-- /////////////////////////////////////// -->
-  <div class="container mx-auto py-4 flex">
-    <div class="grow flex">
-      <!-- ADD PROJECT -->
-      <div class="inline-flex rounded-md shadow">
-        <a href="#"
-          class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-indigo-50">
-          Add Project </a>
-      </div>
-      <!-- ADD ISSUE -->
-      <div class="ml-3 inline-flex rounded-md shadow">
-        <a href="#"
-          class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-indigo-50">
-          Add Issue </a>
-      </div>
-      <!-- SEARCH -->
-      <div class="grow ml-3 inline-flex rounded-md shadow">
-        <input type="text" name="company-website" id="company-website"
-          class="focus:ring-indigo-500 focus:border-indigo-500 px-5 py-3 flex-1 block w-full rounded-md text-base font-medium border-gray-300"
-          placeholder="Search">
-      </div>
+
+  <div class="container mx-auto py-4 flex space-x-3">
+    <div class="inline-flex rounded-md shadow">
+      <a href="#"
+        class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-indigo-50">
+        Add Project </a>
     </div>
-    <div class="flex">
-      <!-- USER ID  -->
-      <div class="ml-3 inline-flex rounded-md shadow">
-        <a href="#"
-          class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-indigo-50">
-          User </a>
-      </div>
-      <!-- LOGOUT -->
-      <div class="ml-3 inline-flex rounded-md shadow">
-        <a href="#"
-          class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-indigo-50">
-          Logout </a>
-      </div>
+    <!-- ADD ISSUE -->
+    <div class="inline-flex rounded-md shadow">
+      <a href="#"
+        class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-indigo-50">
+        Add Issue </a>
+    </div>
+    <!-- SEARCH -->
+    <div class="grow inline-flex rounded-md shadow">
+      <input type="text" name="company-website" id="company-website"
+        class="focus:ring-indigo-500 focus:border-indigo-500 px-5 py-3 flex-1 block w-full rounded-md text-base font-medium border-gray-300"
+        placeholder="Search">
+    </div>
+    <!-- USER ID  -->
+    <div class="inline-flex rounded-md shadow">
+      <a href="#"
+        class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-indigo-50">
+        User </a>
+    </div>
+    <!-- LOGOUT -->
+    <div class="inline-flex rounded-md shadow">
+      <a href="#"
+        class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-indigo-50">
+        Logout </a>
     </div>
   </div>
   <div class="container mx-auto">
@@ -44,13 +40,13 @@
       <!-- ISSUE LIST -->
       <!-- /////////////////////////////////////// -->
       <div class="bg-yellow-100 w-1/2 text-center">
-        <div>
+        <div class="bg-red-100">
           Open / In Progress / Closed
         </div>
-        <div>
+        <div class="bg-green-100">
           All Project / Open
         </div>
-        <div>
+        <div class="bg-orange-100">
           <ul>
             <li>Issue 1</li>
             <li>Issue 2</li>
