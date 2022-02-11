@@ -10,6 +10,8 @@ import { SelectorComponent } from './reusables/selector/selector.component';
 import { ButtonComponent } from './reusables/button/button.component';
 import { FooterComponent } from './sections/footer/footer.component';
 import { SearchComponent } from './sections/search/search.component';
+import { HeaderComponent } from './sections/header/header.component';
+import { ContentComponent } from './sections/content/content.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +23,8 @@ import { SearchComponent } from './sections/search/search.component';
     ButtonComponent,
     FooterComponent,
     SearchComponent,
+    HeaderComponent,
+    ContentComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
