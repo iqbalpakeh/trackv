@@ -12,19 +12,23 @@ import { FooterComponent } from './sections/footer/footer.component';
 import { SearchComponent } from './sections/search/search.component';
 import { HeaderComponent } from './sections/header/header.component';
 import { ContentComponent } from './sections/content/content.component';
+import { IssueDetailsComponent } from './reusables/issue-details/issue-details.component';
 
 @NgModule({
   declarations: [
+    // Sections
     AppComponent,
-    HomeComponent,
-    LoginComponent,
-    IssueShortComponent,
-    SelectorComponent,
-    ButtonComponent,
-    FooterComponent,
-    SearchComponent,
-    HeaderComponent,
     ContentComponent,
+    FooterComponent,
+    HomeComponent,
+    HeaderComponent,
+    LoginComponent,
+    SearchComponent,
+    // Reusables
+    ButtonComponent,
+    IssueShortComponent,
+    IssueDetailsComponent,
+    SelectorComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
