@@ -3,45 +3,48 @@ export interface Issue {
   short: string;
 }
 
+const sample =
+  'Fugiat ipsum ipsum deserunt culpa aute sint do nostrud anim incididunt cillum culpa consequat. Excepteur qui ipsum aliquip consequat sint. Sit id mollit nulla mollit nostrud in ea officia proident. Irure nostrud pariatur mollit ad adipisicing reprehenderit deserunt qui eu.';
+
 export const issues = [
   {
     id: 'ID0001',
-    short: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+    short: sample,
   },
   {
     id: 'ID0002',
-    short: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+    short: sample,
   },
   {
     id: 'ID0003',
-    short: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+    short: sample,
   },
   {
     id: 'ID0004',
-    short: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+    short: sample,
   },
   {
     id: 'ID0005',
-    short: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+    short: sample,
   },
   {
     id: 'ID0006',
-    short: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+    short: sample,
   },
   {
     id: 'ID0007',
-    short: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+    short: sample,
   },
   {
     id: 'ID0008',
-    short: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+    short: sample,
   },
   {
     id: 'ID0009',
-    short: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+    short: sample,
   },
   {
     id: 'ID0010',
-    short: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+    short: sample,
   },
 ];
