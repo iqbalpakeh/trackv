@@ -32,17 +32,7 @@
         <!-- --------------------------------------- -->
         <div class="mt-4 h-[34.25rem] overflow-y-auto">
           <div class="flex flex-col space-y-3">
-            <app-issue-short [id]="'ID0001'" [describtion]="'Lorem ipsum dolor sit amet consectetur adipisicing elit.'">
-            </app-issue-short>
-            <app-issue-short [id]="'ID0002'" [describtion]="'Lorem ipsum dolor sit amet consectetur adipisicing elit.'">
-            </app-issue-short>
-            <app-issue-short [id]="'ID0003'" [describtion]="'Lorem ipsum dolor sit amet consectetur adipisicing elit.'">
-            </app-issue-short>
-            <app-issue-short [id]="'ID0004'" [describtion]="'Lorem ipsum dolor sit amet consectetur adipisicing elit.'">
-            </app-issue-short>
-            <app-issue-short [id]="'ID0005'" [describtion]="'Lorem ipsum dolor sit amet consectetur adipisicing elit.'">
-            </app-issue-short>
-            <app-issue-short [id]="'ID0006'" [describtion]="'Lorem ipsum dolor sit amet consectetur adipisicing elit.'">
+            <app-issue-short *ngFor="let issue of issues" [id]="issue.id" [describtion]="issue.short">
             </app-issue-short>
           </div>
         </div>
