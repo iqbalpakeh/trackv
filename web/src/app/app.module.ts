@@ -13,6 +13,8 @@ import { SearchComponent } from './sections/search/search.component';
 import { HeaderComponent } from './sections/header/header.component';
 import { ContentComponent } from './sections/content/content.component';
 import { IssueDetailsComponent } from './reusables/issue-details/issue-details.component';
+import { ModalAddProjectComponent } from './sections/modal-add-project/modal-add-project.component';
+import { ModalAddIssueComponent } from './sections/modal-add-issue/modal-add-issue.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +31,8 @@ import { IssueDetailsComponent } from './reusables/issue-details/issue-details.c
     IssueShortComponent,
     IssueDetailsComponent,
     SelectorComponent,
+    ModalAddProjectComponent,
+    ModalAddIssueComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
