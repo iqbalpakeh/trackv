@@ -15,10 +15,10 @@ import { ContentComponent } from './sections/content/content.component';
 import { IssueDetailsComponent } from './reusables/issue-details/issue-details.component';
 import { ModalAddProjectComponent } from './sections/modal-add-project/modal-add-project.component';
 import { ModalAddIssueComponent } from './sections/modal-add-issue/modal-add-issue.component';
+import { IssueMonitorComponent } from './reusables/issue-monitor/issue-monitor.component';
 
 @NgModule({
   declarations: [
-    // Sections
     AppComponent,
     ContentComponent,
     FooterComponent,
@@ -26,13 +26,13 @@ import { ModalAddIssueComponent } from './sections/modal-add-issue/modal-add-iss
     HeaderComponent,
     LoginComponent,
     SearchComponent,
-    // Reusables
     ButtonComponent,
     IssueShortComponent,
     IssueDetailsComponent,
     SelectorComponent,
     ModalAddProjectComponent,
     ModalAddIssueComponent,
+    IssueMonitorComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

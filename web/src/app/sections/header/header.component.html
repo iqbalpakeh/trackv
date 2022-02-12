@@ -8,18 +8,9 @@
   </div>
   <div class="container mx-auto mt-8">
     <div class="flex justify-center space-x-3 pb-4">
-      <!-- OPEN -->
-      <div class="rounded-md shadow px-5 py-3 bg-white leading-6 font-medium text-indigo-600 text-base">
-        Open 5
-      </div>
-      <!-- IN PROGRESS -->
-      <div class="rounded-md shadow px-5 py-3 bg-white leading-6 font-medium text-indigo-600 text-base">
-        In Progress 6
-      </div>
-      <!-- CLOSED -->
-      <div class="rounded-md shadow px-5 py-3 bg-white leading-6 font-medium text-indigo-600 text-base">
-        Closed 10
-      </div>
+      <app-issue-monitor [text]="'Open 5'"></app-issue-monitor>
+      <app-issue-monitor [text]="'In Progress 6'"></app-issue-monitor>
+      <app-issue-monitor [text]="'Closed 10'"></app-issue-monitor>
     </div>
   </div>
   <!-- MODAL -->
