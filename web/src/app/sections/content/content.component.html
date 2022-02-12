@@ -1,10 +1,10 @@
 <div class="flex-grow">
   <div class="container mx-auto mt-8">
     <div class="flex">
-      <!-- --------------------------------------- -->
-      <!-- ISSUE LIST -->
-      <!-- --------------------------------------- -->
       <div class="w-1/2">
+        <!-- --------------------------------------- -->
+        <!-- ISSUE FILTER -->
+        <!-- --------------------------------------- -->
         <div class="flex space-x-3">
           <!-- PROJECT NAME -->
           <div class="w-1/2">
@@ -27,6 +27,9 @@
             </select>
           </div>
         </div>
+        <!-- --------------------------------------- -->
+        <!-- ISSUE LIST -->
+        <!-- --------------------------------------- -->
         <div class="mt-4 h-[34.25rem] overflow-y-auto">
           <div class="flex flex-col space-y-3">
             <app-issue-short [id]="'ID0001'" [describtion]="'Lorem ipsum dolor sit amet consectetur adipisicing elit.'">
