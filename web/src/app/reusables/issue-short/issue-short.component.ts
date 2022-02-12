@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-issue-short',
@@ -6,10 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./issue-short.component.css'],
 })
 export class IssueShortComponent implements OnInit {
-  id = 'ID0001X';
+  @Input() id = '';
 
-  describtion =
-    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quidem asperiores nihil nisi optio mollitia? Nulla, consectetur quam provident odio nobis vel exercitationem rem aperiam molestias minima natus qui perferendis.';
+  @Input() describtion = '';
 
   constructor() {}
 
