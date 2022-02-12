@@ -14,17 +14,8 @@ export class IssueDetailsComponent implements OnInit {
   constructor(private route: ActivatedRoute) {}
 
   ngOnInit(): void {
-    const routeParams = this.route.snapshot.paramMap;
-    const issueIdFromRoute = routeParams.get('issueId');
-
-    console.log(routeParams);
-    console.log(`id: ${issueIdFromRoute}`);
-
-    this.issue = issues.find((issue) => issue.id === issueIdFromRoute);
-
-    // this.issue = {
-    //   id: 'ID0002',
-    //   short: 'HELLO',
-    // };
+    this.route.params.subscribe((data) => {
+      this.issue = issues.find((issue) => issue.id === data['issueId']);
+    });
   }
 }
