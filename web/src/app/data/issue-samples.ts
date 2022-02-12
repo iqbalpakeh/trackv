@@ -32,4 +32,16 @@ export const issues = [
     id: 'ID0007',
     short: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
   },
+  {
+    id: 'ID0008',
+    short: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+  },
+  {
+    id: 'ID0009',
+    short: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+  },
+  {
+    id: 'ID0010',
+    short: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+  },
 ];
