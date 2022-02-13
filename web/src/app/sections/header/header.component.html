@@ -1,6 +1,6 @@
 <div class="flex-none">
   <div class="container mx-auto py-4 flex space-x-3">
-    <app-button [name]="'Add Project'"></app-button>
+    <app-button [name]="'Add Project'" [routerLink]="[{ outlets: { addProject: ['projects']}}]"></app-button>
     <app-button [name]="'Add Issue'"></app-button>
     <app-search class="grow"></app-search>
     <app-button [name]="'User'"></app-button>
@@ -16,4 +16,5 @@
   <!-- MODAL -->
   <!-- <app-modal-add-project *ngIf="showAddProjectModal"></app-modal-add-project>
   <app-modal-add-issue *ngIf="showAddIssueModal"></app-modal-add-issue> -->
+  <router-outlet name="addProject"></router-outlet>
 </div>
