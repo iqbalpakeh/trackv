@@ -6,18 +6,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css'],
 })
 export class HeaderComponent implements OnInit {
-  showAddProjectModal = false;
-  showAddIssueModal = false;
+  // showAddProjectModal = false;
+  // showAddIssueModal = false;
 
   constructor() {}
 
   ngOnInit(): void {}
 
-  addProject() {
-    this.showAddProjectModal = true;
-  }
+  // addProject() {
+  //   this.showAddProjectModal = true;
+  // }
 
-  addIssue() {
-    this.showAddIssueModal = true;
-  }
+  // addIssue() {
+  //   this.showAddIssueModal = true;
+  // }
 }
