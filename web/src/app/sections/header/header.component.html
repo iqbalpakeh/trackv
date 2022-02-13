@@ -1,7 +1,7 @@
 <div class="flex-none">
   <div class="container mx-auto py-4 flex space-x-3">
-    <app-button [name]="'Add Project'"></app-button>
-    <app-button [name]="'Add Issue'"></app-button>
+    <app-button [name]="'Add Project'" (click)="addProject()"></app-button>
+    <app-button [name]="'Add Issue'" (click)="addIssue()"></app-button>
     <app-search class="grow"></app-search>
     <app-button [name]="'User'"></app-button>
     <app-button [name]="'Logout'"></app-button>
@@ -14,6 +14,6 @@
     </div>
   </div>
   <!-- MODAL -->
-  <!-- <app-modal-add-project></app-modal-add-project> -->
-  <!-- <app-modal-add-issue></app-modal-add-issue> -->
+  <app-modal-add-project *ngIf="showAddProjectModal"></app-modal-add-project>
+  <app-modal-add-issue *ngIf="showAddIssueModal"></app-modal-add-issue>
 </div>
