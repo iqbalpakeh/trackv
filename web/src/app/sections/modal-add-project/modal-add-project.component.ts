@@ -18,6 +18,6 @@ export class ModalAddProjectComponent implements OnInit {
   closePopup() {
     // Providing a `null` value to the named outlet
     // clears the contents of the named outlet
-    this.router.navigate([{ outlets: { addProject: null } }]);
+    this.router.navigate([{ outlets: { modal: null } }]);
   }
 }
